@@ -1,0 +1,64 @@
+@charset "utf-8";
+/**
+ * base.css
+ * https://www.yangqq.com/
+ * Copyright 2020, design by yangqq
+ */
+@media screen and (max-width:1200px) {
+.box, article, .navbox { width: 100% }
+#searchform { width: 50% }
+.user-login { margin-right: 10px }
+.ranking .box { width: 1200px !important; overflow-x: scroll; }
+.ranking { overflow-x: auto; }
+.pics-pc li i img { height: 100%; width: auto; min-width: 100%; }
+.pics-tx li i img { height: 100%; width: auto }
+.pics-bj li i img { height: 100%; width: auto; min-width: 100%; }
+.pics-bj li { width: 25% }
+}
+@media screen and (max-width:960px) {
+nav { width: 100%; background: #fff; clear: both; height: auto; border-top: #e0e0e0 1px solid; }
+header { height: auto; overflow: hidden; }
+.logo img { margin: auto; }
+.logo { float: none; margin: auto; }
+#starlist li.menu:before { background: none; }
+.search input.input_text { width: 76% }
+.search input.input_submit { width: 24% }
+.is-fixed .user-login { display: none }
+.share .bshare-custom a { margin-right: 0 }
+.show-list span a:nth-child(2) { text-indent: 1em; background: url(../images/down-icon.png) no-repeat left 10px center; background-size: 20px; }
+.show-list span a:nth-child(2):hover { background: url(../images/down-iconb.png) no-repeat left 10px center; background-size: 20px; }
+.show-column { padding: 0 5px }
+}
+ @media screen and (max-width: 768px) {
+#searchform { width: 70%; }
+.searchbox.search-fixed #searchform { float: right; margin-right: 10px; border-radius: 0 5px 5px 0; }
+.show-column { width: 25% }
+.show-content, aside { width: 100%; margin-bottom: 30px }
+nav { overflow-x: auto; line-height: 40px; }
+nav #starlist { width: max-content !important; overflow-x: scroll; }
+#searchform { width: 90%; }
+.search input.input_submit { background: none; text-indent: inherit }
+.searchbox.search-fixed { background: #fff; }
+.searchbox.search-fixed .search { width: 90%; margin: auto; overflow: hidden; }
+.pics-pc li i { height: 85px; }
+.pics-tx li i { height: 113px; }
+.pics-bj li i { height: 260px }
+}
+ @media screen and (max-width: 640px) {
+.pic-title { font-size: 18px; }
+.pic-title span { line-height: inherit }
+.pics-zt li, .pics-bj li { width: 50% }
+.pics-zt li a, .pics-bj li a { margin: 6px; }
+.show-column { width: 50% }
+.show-list span, .show-pic h2 { font-size: 12px; }
+.show-list { padding: 0 0 10px 0 }
+.show-pic { margin: 0 0 15px 0; padding: 8px; }
+.searchbox.search-fixed .search input.input_text { line-height: 28px; height: 30px; }
+.searchbox.search-fixed .search input.input_submit { line-height: 30px; height: 30px; font-size: 14px; }
+.searchbox.search-fixed .search { width: 100%; }
+.searchbox.search-fixed #searchform { float: none; margin-right: inherit; border-radius: 0; }
+.pics-pc li { width: 50%; }
+.pics-bj li i img { width: 100%; }
+.pics-tx li { width: 50% }
+.pics-tx li i img { margin: auto; }
+}
